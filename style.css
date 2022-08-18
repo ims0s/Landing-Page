@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0;
+}
+.header , .footer , .hero{
+    background-color: #1f2937;
+    display: flex;
+    
+}
+.header{
+    justify-content: space-between;
+    
+}
+.header , .footer{
+    padding: 16px 60px;
+    
+}
+.footer{
+    
+    justify-content: center ;
+    align-items: center;
+}
+.hero{
+    padding: 80px ;
+    justify-content: center;
+    gap:50px ;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+}
+a , .footer{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.desc{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+button{
+    background-color: #3882f6;
+    
+}
+.logo ,.main-text {
+    color: #f9faf8 ;
+    font-weight: bold;
+}
+.logo{
+    font-size: 24px;
+}
+.main-text {
+    font-size: 48px;
+}
+.main-img{
+    width:400px ;
+    height: auto;
+
+}
+p{
+    margin: 0;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.card-section{
+    display: flex;
+    gap: 20px;
+    
+}
+.card{
+    text-align: center;
+}
+.card-img{
+    
+    height: 200px;
+    width: 200px;
+}
+.info-{
+    margin-bottom: 20px;
+
+}
+.img-container{
+    border: #3882f6 2px;
+}
