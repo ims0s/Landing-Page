@@ -103,3 +103,52 @@ p{
     font-weight: bold;
     color: #1f2937;
 }
+.qoutes{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 510px;
+    gap: 10px;
+
+}
+.qoute{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 400;
+}
+.author{
+    align-self: flex-end;
+    color: #1f2937;
+    font-size: 24px ;
+    font-weight: bold
+}
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+
+}
+.section{
+    background-color: #3882f6;
+    display: flex;
+    padding: 50px 100px;
+    width: 700px;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+#action{
+    border: 3px solid white;
+    padding: 0 25px;
+}
+.call , .call-sub{
+    
+    color: #f9faf8;
+    
+}
+.call{
+    font-size: 24px;
+    font-weight: bold;
+}
