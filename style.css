@@ -109,7 +109,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 510px;
+    padding: 60px 20%;
     gap: 10px;
 
 }
